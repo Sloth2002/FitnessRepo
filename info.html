@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--
+    Author: Brandon Cuartas
+    Date: June 2021
+    Assignment Fitness for Fun
+
+    File name: info.html
+    -->
+    <meta charset="utf-8">
+    <title>Info</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>Fit for Fun Fitness Club</h1>
+        <p>Your home away from home.</p>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+    <div class="form">
+
+    <form action="thankyou.html" method="get">
+      <fieldset>
+        <legend>Contact Information</legend>
+
+        <label for="fname">
+          Name:
+          <input class="contact" autofocus type="text" name="fname" id="fname" required placeholder="First Name"/>
+        </label>
+
+        <label for="lname">
+          Last Name:
+          <input class="contact" type="text" name="lname" id="lname" required placeholder="Last Name"/>
+        </label>
+
+        <label for="email">
+          Email:
+          <input class="contact" type="email" name="email" id="email" required placeholder="example@email.com"/>
+        </label>
+
+        <label for="phone">
+          Phone:
+          <input class="contact" type="tel" name="phone" id="phone" required placeholder="(000)000-0000"/>
+        </label>
+
+        <label for="reach">
+          Best Way To Reach You:
+          <select name="reach" id="reach" >
+            <option value="Email">Email</option>
+            <option value="Phone">Phone</option>
+            <option value="Owl">Owl</option>
+          </select>
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Class Selection</legend>
+
+        <label for="CrossTraining">
+          <input type="checkbox" id="CrossTraining" name="Cross Training" value="Cross Training">
+          Cross Training
+        </label>
+
+        <label for="Sprint">
+          <input type="checkbox" id="Sprint" name="Sprint" value="Sprint">
+          Sprint
+        </label>
+
+        <label for="Spin">
+          <input type="checkbox" id="Spin" name="Spin" value="Spin">
+          Spin
+        </label>
+
+        <label for="BodyPump">
+          <input type="checkbox" id="BodyPump" name="Body Pump" value="Body Pump">
+          Body Pump
+        </label>
+
+        <label for="BodyCombat">
+          <input type="checkbox" id="BodyCombat" name="Body Combat" value="Body Combat">
+          Body Combat
+        </label>
+
+        <label for="StepInterval">
+          <input type="checkbox" id="StepInterval" name="Step Interval" value="Step Interval">
+          Step Interval
+        </label>
+
+        <label for="AdvancedCrossTraining">
+          <input type="checkbox" id="AdvancedCrossTraining" name="Advanced Cross Training" value="Advanced Cross Training">
+          Advanced Cross Training
+        </label>
+
+        <label for="MixxedFIT">
+          <input type="checkbox" id="MixxedFIT" name="MixxedFIT" value="MixxedFIT">
+          MixxedFIT
+        </label>
+
+        <label for="Zumba">
+          <input type="checkbox" id="Zumba" name="Zumba" value="Zumba">
+          Zumba
+        </label>
+        <p>Select a time:</p>
+        <label for="AM">
+          <input type="radio" id="AM" name="time" value="AM">
+          AM
+        </label>
+
+        <label for="PM">
+          <input type="radio" id="PM" name="time" value="PM">
+          PM
+        </label>
+
+      </fieldset>
+      <input class="submit" type="submit" value="submit" />
+    </form>
+
+    </div>
+    <footer>
+      <p>Contact: <a class="contact" href="mailto:FitnessClub@gmail.com">FitnessClub@gmail.com</a></p>
+    </footer>
+  </body>
+</html>
